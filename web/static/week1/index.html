@@ -3,41 +3,45 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>ร้านตัวอย่าง — บทเรียน HTML สัปดาห์ที่ 1</title>
+    <title>--ชมรมเด็กข่าว--</title>
   </head>
   <body>
     <header>
-      <h1>ร้านตัวอย่าง</h1>
+      <h1>ชมรมเด็กข่าว</h1>
       <nav aria-label="เมนูหลัก">
-        <a href="#catalog">สินค้า</a>
-        <a href="#cart">ตะกร้าตัวอย่าง</a>
+        <a href="#news">ข่าว1</a>
+        <a href="#news1">ข่าว2</a>
+        <a href="#news2">ข่าว3</a>
       </nav>
     </header>
 
     <main>
-      <section aria-labelledby="welcome-title">
-        <h2 id="welcome-title">เลือกของใช้สำหรับการเรียน</h2>
-        <p>หน้านี้เป็นตัวอย่าง HTML แบบคงที่ ยังไม่มี CSS, JavaScript หรือ API</p>
+      <section id="news" aria-labelledby="news-title">
+        <h2 id="news-title">ข่าว1 คดีเงินบริจาค "บุ๋ม ปนัดดา" และมูลนิธิองค์กรทำดี</h2>
+        <p>: ยังเป็นประเด็นร้อนต่อเนื่องหลังมีการตรวจสอบเส้นทางการเงินและประเด็นการนำเงินบริจาคไปใช้ โดยมีกระแสวิพากษ์วิจารณ์และท่าทีจากหลายฝ่าย รวมถึงการสอบสวนข้อเท็จจริง</p>
       </section>
 
-      <section id="catalog" aria-labelledby="catalog-title">
-        <h2 id="catalog-title">รายการสินค้า</h2>
+
+
+      <section id="news1" aria-labelledby="news1-title">
+        <h2 id="news1-title">ข่าว2 การเมืองและการตรวจสอบ</h2>
         <article aria-labelledby="notebook-title">
-          <h3 id="notebook-title">สมุดบันทึก</h3>
-          <p>ปกอ่อน จำนวน 120 หน้า</p>
-          <p>ราคา <data value="129">129 บาท</data></p>
-          <button type="button" disabled>เพิ่มลงตะกร้า — จะทำงานในบทเรียนภายหลัง</button>
+          <p>: สำนักนายกรัฐมนตรีทำหนังสือสอบถาม กกต. ปมรับบริจาคน้ำท่วมโยง “พรรคประชาชน” ขณะที่กลุ่มมวลชนเตรียมเคลื่อนไหว โดย "กำนันมะโน" เตรียมนำมวลชนกดดันกระทรวงพลังงานในวันที่ 16 พฤศจิกายนนี้</p>
         </article>
       </section>
 
-      <section id="cart" aria-labelledby="cart-title">
-        <h2 id="cart-title">ตะกร้าตัวอย่าง</h2>
-        <p>ยังไม่มีสินค้าในตะกร้า</p>
+
+
+      <section id="news2" aria-labelledby="news2-title">
+        <h2 id="news2-title">ข่าว3 ประกาศกรมอุตุนิยมวิทยา</h2>
+        <p>: ภาคใต้ยังมีฝนตกหนักบางแห่ง (เฝ้าระวังน้ำท่วมฉับพลันในหลายจังหวัด) ขณะที่ไทยตอนบนอุณหภูมิสูงขึ้นเล็กน้อยหลังจากลมหนาวพักยก</p>
       </section>
     </main>
 
-    <footer>
-      <p>ตัวอย่างสำหรับฝึกอ่านโครงสร้างเอกสารและ DOM</p>
+
+
+    <footer>  
+      <p>© 2026 ชมรมเด็กข่าว</p>
     </footer>
   </body>
 </html>
