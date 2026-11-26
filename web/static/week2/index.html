@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>รายการสินค้า</title>
+  </head>
+  <body>
+        <header>
+      <h1>ชมรมเด็กข่าว</h1>
+      <nav aria-label="เมนูหลัก">
+        <a href="#news">ข่าว1</a>
+        <a href="#news1">ข่าว2</a>
+        <a href="#news2">ข่าว3</a>
+      </nav>
+    </header>
+
+    <main>
+      <section id="news" aria-labelledby="news-title">
+        <h2 id="news-title">ข่าว1 คดีเงินบริจาค "บุ๋ม ปนัดดา" และมูลนิธิองค์กรทำดี</h2>
+        <p>: ยังเป็นประเด็นร้อนต่อเนื่องหลังมีการตรวจสอบเส้นทางการเงินและประเด็นการนำเงินบริจาคไปใช้ โดยมีกระแสวิพากษ์วิจารณ์และท่าทีจากหลายฝ่าย รวมถึงการสอบสวนข้อเท็จจริง</p>
+      </section>
+
+
+
+      <section id="news1" aria-labelledby="news1-title">
+        <h2 id="news1-title">ข่าว2 การเมืองและการตรวจสอบ</h2>
+        <article aria-labelledby="notebook-title">
+          <p>: สำนักนายกรัฐมนตรีทำหนังสือสอบถาม กกต. ปมรับบริจาคน้ำท่วมโยง “พรรคประชาชน” ขณะที่กลุ่มมวลชนเตรียมเคลื่อนไหว โดย "กำนันมะโน" เตรียมนำมวลชนกดดันกระทรวงพลังงานในวันที่ 16 พฤศจิกายนนี้</p>
+        </article>
+      </section>
+
+
+
+      <section id="news2" aria-labelledby="news2-title">
+        <h2 id="news2-title">ข่าว3 ประกาศกรมอุตุนิยมวิทยา</h2>
+        <p>: ภาคใต้ยังมีฝนตกหนักบางแห่ง (เฝ้าระวังน้ำท่วมฉับพลันในหลายจังหวัด) ขณะที่ไทยตอนบนอุณหภูมิสูงขึ้นเล็กน้อยหลังจากลมหนาวพักยก</p>
+      </section>
+    </main>
+
+    <footer>  
+      <p>© 2026 ชมรมเด็กข่าว</p>
+    </footer>
+
+
+
+    <main>
+      <h1>รายการสินค้า</h1>
+
+      <form method="get">
+          <label for="productId">สินค้าที่สนใจ</label>
+          <select id="productId" name="productId" required>
+            <option value="">-- เลือกสินค้า --</option>
+            <option value="notebook">สมุดบันทึก</option>
+            <option value="pen">ปากกา</option>
+          </select>
+       
+        <p>
+          <label for="quantity">จำนวนที่สนใจ</label>
+          <input id="quantity" name="quantity" type="number" min="1"required/>
+        </p>
+
+        <button type="submit">ทดลองส่งข้อมูล</button>
+      </form>
+    </main>
+  </body>
+</html>
